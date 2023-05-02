@@ -311,11 +311,10 @@ const PageUploadItem: FC<PageUploadItemProps> = ({ className = "" }) => {
     },
   });
 
-  const handleCategoryChange = (e:any)=> {
+  const handleCategoryChange = (e: any) => {
     // console.log(e);
-    setSelected(e)
-    
-  }
+    setSelected(e);
+  };
 
   return (
     <>
@@ -360,7 +359,7 @@ const PageUploadItem: FC<PageUploadItemProps> = ({ className = "" }) => {
             >
               <div>
                 <Label>Choose category</Label>
-no
+                no
                 <RadioGroup value={selected} onChange={handleCategoryChange}>
                   <RadioGroup.Label className="sr-only">
                     Server size
@@ -456,8 +455,12 @@ no
                   <div className="mt-5 ">
                     <ContainerWrapper className="mt-1 flex justify-center px-6 pt-6 pb-6 border-2 border-neutral-300 dark:border-neutral-6000 border-dashed rounded-xl ">
                       {/* filter((item)=>item.category.toLocaleLowerCase() === selected.name.toLocaleLowerCase()). */}
-                      {icons.map((icon,index)=>(
-                         <Icon key={index} src={icon.icon} alt={`Icon ${index}`} />
+                      {icons.map((icon, index) => (
+                        <Icon
+                          key={index}
+                          src={icon.icon}
+                          alt={`Icon ${index}`}
+                        />
                       ))}
                       <UploadButton className="space-y-1 text-center">
                         {/* <svg
@@ -764,10 +767,8 @@ const UploadButton = styled.span`
     width: 100%;
 
     @media only screen and (max-width: 600px) {
-       {
-        padding: 0.875rem 2.1rem;
-        font-size: 1rem;
-      }
+      padding: 0.875rem 2.1rem;
+      font-size: 1rem;
     }
   }
 `;
