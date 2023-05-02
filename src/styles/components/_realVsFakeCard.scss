@@ -1,0 +1,41 @@
+.card-img {
+  max-width: 450px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.card-img-full {
+  max-width: 550px;
+  width: 100%;
+  margin: 0px auto;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.card-title-center {
+  text-align: center;
+}
+
+.card-mata {
+  margin-bottom: 15px;
+}
+
+.card-mata > span {
+  text-transform: uppercase;
+}
+
+.card-mata-center {
+  text-align: center;
+}
+
+.card-desc {
+  margin-bottom: 30px;
+}
+
+.card-desc-center {
+  text-align: center;
+}

@@ -1,0 +1,46 @@
+.defaultBorderColor {
+  border-color: var(--default-color) !important;
+  background-color: black;
+  color: var(--default-color) !important;
+}
+
+.forth-btn {
+  border: none !important;
+  background-color: var(--forth-btn-color) !important;
+  color: white !important;
+}
+
+.ttnc-ButtonForth {
+  background-color: var(--forth-btn-color);
+  color: white;
+}
+
+.forth-btn:hover,
+.ttnc-ButtonForth:hover {
+  filter: brightness(0.8) !important;
+}
+
+.fifth-btn {
+  background-color: black;
+  border-radius: 10px !important;
+  text-decoration: none !important;
+  color: var(--forth-btn-color) !important;
+  height: 70px !important;
+}
+
+.fifth-btn-label {
+  padding: 7px 20px;
+  background-color: var(--forth-btn-color);
+  display: inline-block;
+  border-radius: 50px;
+  position: absolute;
+  top: -50px;
+  right: 30px;
+}
+
+@media screen and (max-width: 567px) {
+  .fifth-btn-label {
+    top: -40px;
+    right: 75px;
+  }
+}

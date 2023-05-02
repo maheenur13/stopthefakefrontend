@@ -1,0 +1,17 @@
+.hero-text {
+  font-size: 45px !important;
+}
+
+.hero-sub-text {
+  font-size: 18px !important;
+}
+
+@media screen and (max-width: 576px) {
+  .hero-text {
+    font-size: 25px !important;
+  }
+  .hero-sub-text {
+    font-size: 13px !important;
+    margin-bottom: 10px !important;
+  }
+}

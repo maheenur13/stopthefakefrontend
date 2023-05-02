@@ -1,0 +1,10 @@
+.timer-select {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 610px) {
+  .timer-select {
+    display: block;
+  }
+}

@@ -1,0 +1,36 @@
+.background-video {
+  min-width: 100%;
+  position: relative;
+  z-index: 5;
+}
+
+@media screen and (max-width: 576px) {
+  .background-video {
+    min-width: 200%;
+    margin: 0px auto !important;
+  }
+
+  .section-hero-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+  }
+  .hero-text{
+    font-size: 30px !important;
+    text-align: center;
+  }
+  .hero-sub-text{
+    font-size: 18px !important;
+    color: azure;
+    text-align: center;
+  }
+  .btn-space{
+    padding: 20px 80px !important;
+  }
+}
+@media screen and (max-width: 480px){
+  .btn-space{
+    padding: 20px 60px !important;
+  }
+}

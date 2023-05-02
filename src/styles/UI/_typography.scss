@@ -1,0 +1,23 @@
+.text-pricing {
+  color: var(--pricing-text-color) !important;
+}
+
+.montion-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.montion-title > span:nth-child(1) {
+  font-size: 20px;
+}
+
+.montion-title > span:nth-child(2) {
+  font-size: 50px;
+  color: var(--youtube-color);
+}
+
+.montion-desc {
+  font-size: 20px !important;
+  text-align: center;
+}

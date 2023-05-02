@@ -1,0 +1,47 @@
+@import "./_theme_colors";
+@import "./_theme_font";
+@import "./_theme_custom";
+//
+@import "./header";
+
+@import "./UI/buttonDefault";
+@import "./UI/linkDefault";
+@import "./UI/typography";
+@import "./UI/background";
+
+@import "./components/realVsFakeCard";
+@import "./components/pageUploadItem";
+@import "./components/certificate";
+@import "./components/heroSection";
+@import "./components/portalWrapper";
+@import "./components/dashboard";
+@import "./components/checkout";
+
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+// @import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+aside::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+aside::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+aside::-webkit-scrollbar-thumb {
+  background-color: #1a6199;
+}
+
+:fullscreen {
+  overflow: auto !important;
+}
+:-ms-fullscreen {
+  overflow: auto !important;
+}
+:-webkit-full-screen {
+  overflow: auto !important;
+}
+:-moz-full-screen {
+  overflow: auto !important;
+}
